@@ -4,16 +4,33 @@
     padding:16px;
     box-shadow:0 1px 3px -2px black;
 }
-.nav-logo{
+.nav-logo {
     display: flex;
     align-items: center;
-    gap:10px;
+    gap: 10px; /* Space between the logo image and text */
+    padding: 8px 12px; /* Padding around the logo area */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ffffff; /* White background to match the logo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    cursor: pointer; /* Pointer cursor on hover */
 }
-.nav-logo p{
-    color:black;
-    font-size: 38px;
-    font-weight: 600;
+
+.nav-logo img {
+    width: 200px; /* Increased size of the logo image */
+    height: auto; /* Maintain aspect ratio */
 }
+
+.nav-logo p {
+    color: #000; /* Black text color for contrast */
+    font-size: 36px; /* Adjust font size */
+    font-weight: 600; /* Font weight */
+    margin: 0; /* Remove default margin */
+}
+
+
+
+
+
 .nav-menu{
     display: flex;
     align-items: center;
